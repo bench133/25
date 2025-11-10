@@ -11,7 +11,6 @@ for i in f:
     x, y = i.split()
     x = int(x)
     y = int(y)
-    if x % 2 == 1:
         if x > y:
             sum1 = sum1 + x
             sum0 = sum0 + y
